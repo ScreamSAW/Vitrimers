@@ -104,7 +104,7 @@ void xlinkdegree()
 		else 
 			continue;
 	}
-	
+	printf("%d %d",numC,numB);
 
 	fclose(stdout);
 	return;
@@ -112,6 +112,6 @@ void xlinkdegree()
 int main()
 {
 	read();
-	
+	xlinkdegree();
 	return 0;
 }
